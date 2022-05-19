@@ -1,0 +1,129 @@
+body {
+  background-image: url(f.jpg);
+  min-height: 100vh;
+  background-size: auto;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+
+footer p {
+  font-size: 0.6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+h4 {
+  font-family: "Noto Serif", serif;
+  color: white;
+  font-size: 1rem;
+}
+
+p {
+  font-family: "Noto Serif", serif;
+  color: white;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 600px) {
+  .grid-1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 30px;
+  }
+
+  .grid-1-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 30px;
+  }
+  .grid-1-11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    gap: 20px;
+  }
+}
+
+.img1 {
+  width: 100%;
+  grid-column: 1;
+  filter: sepia(30%) opacity(90%);
+  border: #d1af93 5px solid;
+}
+.img2 {
+  width: 100%;
+  grid-column: 2;
+  filter: sepia(30%) opacity(80%);
+  border: #d1af93 5px solid;
+}
+.img3 {
+  width: 100%;
+  grid-column: 3;
+  filter: sepia(30%) opacity(80%);
+  border: #d1af93 5px solid;
+}
+.img4 {
+  width: 75%;
+  filter: sepia(60%) opacity(80%);
+  margin-bottom: 30px;
+  border: #d1af93 5px solid;
+}
+
+.grid-1-1-1-1 img {
+  border: 3px solid #d1af93;
+  width: 50%;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 2fr;
+  width: 74.5%;
+  border: 5px solid #d1af93;
+  margin-bottom: 20px;
+  filter: sepia(30%) opacity(80%);
+}
+
+iframe {
+  width: 75%;
+  height: auto;
+  aspect-ratio: 16/9;
+
+  border: 5px solid #d1af93;
+  margin-bottom: 20px;
+  filter: sepia(30%) opacity(80%);
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+video {
+  width: 75%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border: 5px solid #d1af93;
+  margin-bottom: 20px;
+  filter: sepia(30%) opacity(80%);
+}
+
+a {
+  color: white;
+}
